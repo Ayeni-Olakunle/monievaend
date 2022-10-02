@@ -42,11 +42,13 @@
 .info{
     margin: 0;
     color: #0b0978;
+    font-size: 15px;
 }
 
 .data{
     color: #0b0978;
     margin: 10px 0;
+    font-size: 12px;
 }
 
 .changeFlow{
@@ -61,7 +63,7 @@
     border: 2px solid #0b0978;
     border-radius: 8px;
     background-color: white;
-    font-size: 20px;
+    font-size: 12px;
     cursor: pointer;
 }
 
