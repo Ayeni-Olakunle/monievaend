@@ -1,5 +1,5 @@
 .pageHeader{
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
     color: #0b0978;
     padding: 10px;
@@ -20,13 +20,13 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px 5px;
+    padding: 5px;
     background-color: white;
     width: 100%;
 }
 
 .text{
-    font-size: 20px;
+    font-size: 15px;
     color: #0b0978;
 }
 
@@ -40,8 +40,8 @@
 }
 
 .password1 button{
-    padding: 15px 30px;
-    font-size: 15px;
+    font-size: 12px;
+    padding: 12px 20px;
     border: 2px solid #0b0978;
     background-color: #0b0978;
     color: white;
