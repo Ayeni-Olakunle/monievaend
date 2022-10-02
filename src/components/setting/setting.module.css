@@ -1,0 +1,87 @@
+.holdSetting{
+    padding: 40px 50px;
+}
+
+.steps{
+    width: 100%;
+    display: flex;
+}
+
+.step1{
+    height: 75vh;
+    width: 35%;
+    background-color: white;
+    border-radius: 8px 0 0 8px;
+    border-right: 1px solid #d7d7d7;
+}
+
+.step2{
+    height: 75vh;
+    width: 65%;
+    background-color: white;
+    border-radius: 0 8px 8px 0;
+}
+
+.pageHeader{
+    font-size: 25px;
+    margin: 0;
+    color: #0b0978;
+    padding: 30px;
+}
+
+.optionActive{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f7;
+    cursor: pointer;
+}
+.option{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.iconMeActive{
+    font-size: 30px;
+    background-color: #0b0978;
+    color: white;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconMe{
+    font-size: 30px;
+    background-color: #f0f0f7;
+    color: #0b0978;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon{
+    font-size: 30px;
+}
+.info{
+    margin: 0;
+    color: #0b0978;
+}
+
+.data{
+    color: #0b0978;
+    margin: 10px 0;
+}

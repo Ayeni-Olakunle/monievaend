@@ -1,0 +1,154 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 3vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.holdAll{
+  width: 100%;
+  display: flex;
+}
+
+.navBar{
+  width: 20%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.mainContent{
+  width: 80%;
+  background-color: #f0f0f7;
+  height: 100vh;
+  overflow-y: scroll,
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  border-radius: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0b0978;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0b0978;
+}
+
+.topProfile{
+  height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.topContent{
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.holdSearch{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #dedede;
+    padding: 10px;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.input{
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.holdBell{
+  display: flex;
+  border-right: 2px solid #c8c8c8;
+  padding-right: 20px;
+}
+
+.bell{
+  font-size: 25px;
+    color: gray;
+    margin-right: -14px;
+    margin-top: 3px;
+}
+
+.redDot{
+  width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+}
+
+.holdImage{
+  display: flex;
+  align-items: center;
+}
+
+.imageIt{
+  padding-inline: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.imageSelf{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.drop{
+  font-size: 30px;
+  color: gray;
+}

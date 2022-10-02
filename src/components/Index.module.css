@@ -1,0 +1,74 @@
+.holdNav{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+}
+
+.holdNav nav{
+    padding: 2em 2em;
+}
+
+.holdNav nav p{
+    margin: 0;
+    padding: 0.7em 0;
+    font-size: 35px;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    color: #0b0978;
+}
+
+.holdNavList{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.holdNavList li{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #4e4cbf;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.holdNavList li a{
+    color: #4e4cbf;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #0b0978;
+    color: white !important;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.active a{
+    background-color: #0b0978;
+    color: white !important;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.borderTop{
+    margin-top: 3em !important;
+    margin-bottom: 40px;
+    border-top: 1px solid #dbdbdb;
+}

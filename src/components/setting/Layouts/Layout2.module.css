@@ -1,0 +1,60 @@
+.pageHeader{
+    font-size: 25px;
+    margin: 0;
+    color: #0b0978;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.holdOne{
+    padding: 20px;
+}
+
+.hold{
+    padding: 20px;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+}
+
+.option2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 5px;
+    background-color: white;
+    width: 100%;
+}
+
+.text{
+    font-size: 20px;
+    color: #0b0978;
+}
+
+.password{
+    width: 90%;
+}
+
+.password1{
+    width: 94%;
+    text-align: end;
+}
+
+.password1 button{
+    padding: 15px 30px;
+    font-size: 15px;
+    border: 2px solid #0b0978;
+    background-color: #0b0978;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #cecece;
+    outline: none;
+}

@@ -1,0 +1,80 @@
+.pageHeader{
+    font-size: 25px;
+    margin: 0;
+    color: #0b0978;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.option{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 5px;
+    background-color: white;
+    border-bottom: 1px solid #cecece;
+}
+
+.option2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 5px;
+    background-color: white;
+}
+
+.iconMe{
+    font-size: 30px;
+    background-color: #f0f0f7;
+    color: #0b0978;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 70px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 30px;
+}
+.info{
+    margin: 0;
+    color: #0b0978;
+}
+
+.data{
+    color: #0b0978;
+    margin: 10px 0;
+}
+
+.changeFlow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.button{
+    padding: 8px 20px;
+    border: 2px solid #0b0978;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hold{
+    padding: 20px;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+}
+
+.holdOne{
+    padding: 20px;
+}
+
+.move{
+    display: none;
+}
