@@ -52,8 +52,8 @@
     color: white;
     border-radius: 50%;
     margin-right: 20px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,8 +65,8 @@
     color: #0b0978;
     border-radius: 50%;
     margin-right: 20px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,9 +79,11 @@
 .info{
     margin: 0;
     color: #0b0978;
+    font-size: 17px;
 }
 
 .data{
     color: #0b0978;
     margin: 10px 0;
+    font-size: 12px;
 }
